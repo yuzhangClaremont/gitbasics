@@ -1,6 +1,6 @@
 bugfix
 
-File system:
+File system: bugfix
 cd ~/Desktop
 mkdir test
 rm -r test (remove)
