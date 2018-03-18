@@ -1,3 +1,5 @@
+Github notes
+
 [markdown doc](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 bugfix
 
@@ -12,38 +14,38 @@ rm -r test (remove)
 Git: http://git-scm.com
 Github: https://help.github.com/articles/set-up-git
 Which git
-Git ñversion
+Git ‚Äìversion
 Git bash: UNIX environment
 
 3, git configureing
 Files\git\etc\gitconfig (system)
 HOME\.gitconfig
 
-Git config ñsystem
-Git config ñglobal (user all repo)
+Git config ‚Äìsystem
+Git config ‚Äìglobal (user all repo)
 Git config (project)
-Git config ñglobal user.name ìYun Zhangî
-Git config ñglobal user.emal ìyzhhang@î 
+Git config ‚Äìglobal user.name ‚ÄúYun Zhang‚Äù
+Git config ‚Äìglobal user.emal ‚Äúyzhhang@‚Äù 
 (GitHub uses the email address set in your local Git configuration to associate commits pushed from the command line with your GitHub account.)
 
-Git config ñlist
+Git config ‚Äìlist
 (git account information) why I have two git username?
 
 https://help.github.com/articles/caching-your-github-password-in-git/#platform-linux
-Git config ñglobal credential.helper osxkeychain (mac)
+Git config ‚Äìglobal credential.helper osxkeychain (mac)
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=3600'
 # Set the cache to timeout after 1 hour (setting is in seconds)
 
 
 Git config user.name
-Git config ñglobal core.editor ìmate -wl1î (wait)
-Git config ñglobal color.ui true 
+Git config ‚Äìglobal core.editor ‚Äúmate -wl1‚Äù (wait)
+Git config ‚Äìglobal color.ui true 
 
 
 
 Git fetch origin
-Git log ñoneline -5 origin/master
+Git log ‚Äìoneline -5 origin/master
 Git branch
 Git branch -r
 
@@ -60,7 +62,7 @@ or
 git add .
 to keep them tracked by git. (means staged)
 to unstage:
-git rm ñcached <file>
+git rm ‚Äìcached <file>
 
 Take snapshot:
 git commit
@@ -68,7 +70,7 @@ git commit
 Check difference:
 git diff
 after git add, difference disappear
-git diff ñstaged
+git diff ‚Äìstaged
 
 branching: to modify without messing master
 git branch newfeature
