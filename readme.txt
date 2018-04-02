@@ -91,3 +91,11 @@ when clean, no modifies or new files on both branches.
 Switch to the branch being merged.
 Git merge <branchname>
 tunk branch will not be merged if new branch is more advanced
+
+to check last commit id:
+git rev-parse HEAD
+
+to revert to last commit:
+git reset --hard <old-commit-id>
+git push -f <remote-name> <branch-name>
+
