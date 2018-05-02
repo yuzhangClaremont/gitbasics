@@ -85,6 +85,7 @@ git branch
 change branch name:
 git branch -m <oldname> <newname>
 When new branch is more advanced, check back to master will disappear new files and modifies
+  
 To undo merge:
 git reset --hard HEAD~1
 
@@ -93,3 +94,9 @@ when clean, no modifies or new files on both branches.
 Switch to the branch being merged.
 Git merge <branchname>
 tunk branch will not be merged if new branch is more advanced
+  
+  | Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
