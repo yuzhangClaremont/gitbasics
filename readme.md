@@ -95,10 +95,15 @@ Switch to the branch being merged.
 Git merge <branchname>
 tunk branch will not be merged if new branch is more advanced
   
- | Criterion   |     Evaluation      |  Score |
+| Criterion   |     Evaluation      |  Score |
 |----------|:-------------:|------:|
 | Project name & URL |  https://github.com/django/django |  |
 | Licensing|     |   2 |
 | Language | Python & Javascript |    2 |
 |Activity| |2|
-|Issue tracker| |2|
+|Issue tracker| |0|
+|Number of contributors| |2|
+|community norms||1|
+|size||2|
+|user base||2|
+|total||15|
